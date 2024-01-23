@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+font-family:'Times New Roman', Times, serif}
+.container{
+    height:100%;
+    width: 100vw;
+    overflow-x: none;
+    background-color: #FBE4D8;
+   
+    background-image: linear-gradient(108deg,#FBE4D8 0%, #854F6C 100%);
+}
+.navcontainer{
+    width:100vw;
+    /* background-color: #FBE4D8, */
+    background-color:#854F6C;
+   
+    background-image: linear-gradient(160deg,#854F6C 0%,#2B124C 100%);
+    min-height: 70PX;
+    display:flex;
+    justify-content: center;
+align-items: center;
+position: relative;
+}
+nav{ padding-right:2rem;
+    width: 100%;
+    overflow-x: none;
+}
+#navlist{
+    width:100%;
+    list-style-type: none;
+    font-size: 2.5rem;
+display:flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 15px;}
+#brand{
+    font-size: 2.5rem;
+    /* color:#854F6C; */
+    color: #FBE4D8;
+}
+a{
+    text-decoration: none;
+    color:#FBE4D8;
+}
+#navitem{
+    display: flex;
+    gap:50px;
+ 
+}
+.contentbox{
+    width:70%;
+    padding:3rem;
+    margin:auto;
+    /* border:1px solid #2B124C; */
+    background-color: #FBE4D8;
+    display:flex;
+    flex-direction: column;
+    gap:70px;
+    box-shadow: 0px 0px 30px  #2B124C ;
+    border-radius:0PX;
+}
+section{
+    /* border:2px solid#2B124C; */
+    box-shadow: 0px 0px 7px #522b5b;
+ border-radius: 15px;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    /* align-items:center; */
+    margin:30px;
+    padding:20px;
+}
+.rightbox{
+    position:relative;
+    overflow :hide;
+}
+
+.rightbox img{
+  height:320px;
+  width:330px;
+border-radius:20px;
+
+transition: all 1s   linear 0s;
+box-shadow: 5px 5px 5px  #1f1c1c ;
+}
+.rightbox img:hover{
+    transform: scale(1.1);
+}
+.leftbox{
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+}
+.heading{
+color:#2B124C;
+
+font-size: 2.5rem;
+}
+.heading3{
+    color:#522b5b;
+    font-size: 1.8rem;
+}
+.ingbox{
+    font-size:1.2rem;
+    
+}
+.recpiebox{
+    font-size:1.2rem;
+}
+
+
+
+.footerbox{
+    background-color:#854F6C;
+   
+    background-image: linear-gradient(160deg,#854F6C 0%,#2B124C 100%);
+    
+    width:100%;
+    text-align: center;
+    min-height:40px ;
+
+}
+.footerbox p{
+    color: #FBE4D8;
+    font-size: 1.5rem;
+}
+ .aside{
+    position:fixed;
+    MARGIN:10PX;
+    PADDING:10PX;
+ }
+ .sidebar{
+ 
+    width: 150px;
+    height:250px;
+    box-shadow: 2px 2px 5px #854F6C;
+   border-radius: 20PX;
+    PADDING:10PX;
+font-size: 1.2REM;
+    background-color: #FBE4D8;
+   
+    background-image: linear-gradient(108deg,#FBE4D8 20%, #854F6C 100%);
+ }
+ .colour{
+    color:#2B124C;
+   
+ }
+ #BM{
+    color:#2B124C;
+ }
+ #UL{
+    list-style: none;
+ }
+ 
